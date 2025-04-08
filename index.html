@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brenda Yomi | UI/UX Designer & Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="glass">
+        <div class="container">
+            <div class="logo">BY</div>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <img src="assets/icons/sun.png" alt="Light mode" class="sun-icon">
+                    <img src="assets/icons/moon.png" alt="Dark mode" class="moon-icon">
+                </button>
+            </nav>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content animate__animated animate__fadeInLeft">
+                <h1 class="gradient-text">Understanding People, Designing Better</h1>
+                <h2>Hi, I'm <span class="typed" data-typed-items="Brenda Yomi,UI/UX Designer,Frontend Developer,Content Designer & Writer, Aspiring data scientist"></span></h2>
+                <p>I love creating digital experiences that feel natural and easy to use. With a background in UI/UX, a passion for how people think, and a growing interest in data, I design with both heart and logic—making sure every detail connects with real people.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary pulse">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                </div>
+                <div class="scroll-down">
+                    <span>Scroll Down</span>
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image animate__animated animate__fadeInRight">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <img src="assets/images/profile.png" alt="Brenda Yomi" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text animate__animated" data-animate="animate__fadeInLeft">
+                    <p>With 3 years of experience in UI/UX design and 2 years in frontend development, I specialize in blending creativity with functionality. I believe great design goes beyond aesthetics—it’s about solving real problems and enhancing user experiences.</p>
+                    <p>My approach combines user-centered design principles with modern frontend technologies, creating products that are not only visually engaging but also intuitive and easy to use.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="number" data-count="23">0</span>+
+                            <span class="label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number" data-count="7">0</span>+
+                            <span class="label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number" data-count="3">0</span>+
+                            <span class="label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image animate__animated" data-animate="animate__fadeInRight">
+                    <div class="image-frame">
+                        <img src="assets/images/profile.png" alt="About Brenda Yomi">
+                        <div class="frame-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category animate__animated" data-animate="animate__fadeInUp">
+                    <h3>Design</h3>
+                    <div class="skill">
+                        <span class="skill-name">User Research</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Wireframing & Prototyping</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Information Architecture</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Visual Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Responsive Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">User Testing & Feedback:</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate__animated" data-animate="animate__fadeInUp" data-delay="100">
+                    <h3>Development</h3>
+                    <div class="skill">
+                        <span class="skill-name">HTML/CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Frontend Frameworks: Angular</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Responsive Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Version Control (Git)</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="50"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category animate__animated" data-animate="animate__fadeInUp" data-delay="200">
+                    <h3>Tools</h3>
+                    <div class="skill">
+                        <span class="skill-name">Figma</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">FigJam</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Adobe XD</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Canva</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" data-level="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card animate__animated" data-animate="animate__fadeInUp">
+                    <div class="project-image">
+                        <img src="assets/images/projectone.png" alt="GlamTech Dashboard">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>GlamTech Dashboard</h3>
+                                <p>Explore the latest in tech with smart analytics and seamless inventory insights – all in one sleek dashboard.</p>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small"><i class="fas fa-eye"></i> Case Study</a>
+                                    <a href="https://www.figma.com/proto/cxIu6FKzTOcBCAiEGAOe9s/Glam-tech?node-id=35-2&t=PgTdctc2zHBsdHvO-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=35%3A2" class="btn btn-small btn-secondary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GlamTech Dashboard</h3>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Canva</span>
+                            <span>Adobe Illustrator</span>
+                            <span>Website</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card animate__animated" data-animate="animate__fadeInUp" data-delay="100">
+                    <div class="project-image">
+                        <img src="assets/images/projecttwo.png" alt="Mobile Banking App">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Global Tutors: Connecting Students and Tutors Worldwide</h3>
+                                <p>Global Tutors connects students and tutors worldwide for seamless learning and teaching.</p>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small"><i class="fas fa-eye"></i> Case Study</a>
+                                    <a href="https://www.figma.com/proto/zLikQxxAzQfrKDlOtMCfZE/GlobalTutors?node-id=129-28&t=vu6vdUAgpK55WDA9-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=129%3A28&show-proto-sidebar=1" class="btn btn-small btn-secondary"><i class="fas fa-external-link-alt"></i> Prototype</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Global Tutors: Connecting Students and Tutors Worldwide</h3>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>User Research</span>
+                            <span>Mobile App</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card animate__animated" data-animate="animate__fadeInUp" data-delay="200">
+                    <div class="project-image">
+                        <img src="assets/images/project3.png" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h3>Freshly Baked Goods at Your Fingertips</h3>
+                                <p>Streamlined order and inventory management with an easy-to-use interface.</p>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-small"><i class="fas fa-eye"></i> Case Study</a>
+                                    <a href="https://www.figma.com/proto/PWWFX8SIxjVZq5yhhGbgE1/twin-mood?node-id=41-93&t=Wz6aNS2OoxoQCYnT-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" class="btn btn-small btn-secondary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Twin Mood App</h3>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Website</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="text-center animate__animated" data-animate="animate__fadeInUp" data-delay="300">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info animate__animated" data-animate="animate__fadeInLeft">
+                    <h3>Get in Touch</h3>
+                    <p>Have a project in mind or want to discuss potential opportunities? I'd love to hear from you!</p>
+                    <div class="contact-details">
+                        <a href="mailto:yominjike@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> yominjike@gmail.com
+                        </a>
+                        <a href="tel:+237657051796" class="contact-link">
+                            <i class="fas fa-phone"></i> +237 657-051-796
+                        </a>
+                        <a href="#" class="contact-link">
+                            <i class="fas fa-map-marker-alt"></i> Douala, CMR
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://x.com/yomiify" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="www.linkedin.com/in/brenda-yomi-783100279" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Yomi-brenda/Mental-Health-Support-Platform" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form animate__animated" data-animate="animate__fadeInRight">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">BY</div>
+                <p>Designing and developing digital experiences that make an impact.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="copyright">
+                    &copy; <span id="year"></span> Brenda Yomi. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
